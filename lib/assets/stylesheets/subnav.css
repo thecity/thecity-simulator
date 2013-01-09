@@ -1,0 +1,27 @@
+#jsddm li ul {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 99999;
+}
+
+
+#jsddm li ul li {
+  float: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#jsddm li ul li a {
+  width: auto;
+  background: #cccccc;
+  color: #555555;
+}
+
+
+#jsddm li ul li a:hover {
+  color: #266989;
+}
