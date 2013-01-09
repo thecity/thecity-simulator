@@ -33,7 +33,15 @@
                   %div{:style => 'color: #8C8C8C; float: right'}
                     powered by 
                     %img{:src => "/assets/mortarstone_icon.png"}
-                    %span Mortarstone
+                    %span My Church
+
+                  %nav.stage-tabs
+                    %ul#jsddm
+                      %li
+                        = link_to('Home', 'javascript:void(0);')
+                      %li
+                        = link_to('City Apps', 'javascript:void(0);')
+
 
                 %iframe
                   = yield
