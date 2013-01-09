@@ -10,4 +10,62 @@
  *
  *= require_self
  *= require_tree .
+ *= require city-utility
  */
+
+
+
+/***************************************
+
+		Markup for Simulating The City
+
+****************************************/
+
+#td_sidebar {
+  background-image: url('/assets/thecity_sidebar_mortarstone.png');
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-postion: left top;
+  width: 172px;
+  max-width: 172px;
+  height: 618px;
+  border-right: 1px solid #BBBBBB;
+}
+
+#td_topbar {
+  background-image: url('/assets/thecity_topbar.png');
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-postion: left top;
+  width: 783px;
+  height: 30px; 
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#td_content {
+  background-image: url('/assets/thecity_pagemarker.png');
+  background-repeat: repeat-y;
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+#table_main {
+  margin: 0px auto 0px auto;
+  border: 0;
+  cellpadding: 0;
+  background-color: #FFFFFF;
+  width: 980px;
+}
+
+#center_stage_adjustment {
+  margin-top: -5px;
+  margin-right: -8px;
+  margin-bottom: 5px;
+}
+
+body {
+  background-image: url('/assets/thecity_bg.png');
+  background-repeat: repeat;
+}
+
