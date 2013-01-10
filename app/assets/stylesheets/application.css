@@ -37,18 +37,24 @@
 #link_to_app {
 /*	border: 1px solid red;*/
 	position: relative;
-	top: -302px;
-	left: -9px;
+	top: -303px;
+	left: -8px;
 	width: 188px;
 	height: 39px;
+}
+
+#link_to_app:hover {
+	cursor: pointer;
+	background: -webkit-linear-gradient(left center, #FFFFFF, #E5E5E5) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(left center, #FFFFFF, #E5E5E5) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E5E5E5');
 }
 
 #link_to_app img {
 	clear: left;
 	float: left;
-	padding-top: 10px;
-	padding-left: 15px;
-	margin-right: 5px;
+	padding: 10px 5px 0 15px;
+	padding
 }
 
 #link_to_app p {
