@@ -23,7 +23,7 @@
 ****************************************/
 
 #td_sidebar {
-  background-image: url('/assets/thecity_sidebar_mortarstone.png');
+  background-image: url('/assets/thecity_sidebar.png');
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-postion: left top;
@@ -31,6 +31,36 @@
   max-width: 172px;
   height: 618px;
   border-right: 1px solid #BBBBBB;
+	z-index: -999;
+}
+
+#link_to_app {
+/*	border: 1px solid red;*/
+	position: relative;
+	top: -302px;
+	left: -9px;
+	width: 188px;
+	height: 39px;
+}
+
+#link_to_app img {
+	clear: left;
+	float: left;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin-right: 5px;
+}
+
+#link_to_app p {
+	font-family: "Helvetica Neue";
+	margin-left: 15px;
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: 200;
+	color: #555555;
+	text-decoration: none;
+	letter-spacing: -0.183333px;
+	line-height: 15px;
 }
 
 #td_topbar {
