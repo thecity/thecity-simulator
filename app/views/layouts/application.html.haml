@@ -25,8 +25,8 @@
         %tr
           %td#td_sidebar
             #link_to_app
-              %img{:src => "/assets/church_icon.png", :height => '18px', :width => '18px'}
-              %p My App
+              %img{:src => "/assets/church.png", :height => '18px', :width => '18px'}
+              %p My City App
           %td#td_content
             %section.content.clearfix
               .content-inner
@@ -35,7 +35,7 @@
               
                   %div{:style => 'color: #8C8C8C; float: right'}
                     powered by 
-                    %img{:src => "/assets/church_icon.png", :height => '18px', :width => '18px'}
+                    %img{:src => "/assets/church.png", :height => '18px', :width => '18px'}
                     %span My Church
 
                   %nav.stage-tabs
@@ -46,6 +46,5 @@
                         = link_to('City Apps', 'javascript:void(0);')
 
 
-                %iframe
-                  = yield
+                %iframe{:src => '/index;', :style => 'width: 100%;'}
 
